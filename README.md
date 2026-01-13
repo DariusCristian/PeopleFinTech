@@ -53,12 +53,7 @@ Built with **Laravel** and a relational database (MySQL/MariaDB).
 
 ---
 
-## Installation & Setup
 
-### 1) Clone the repository
-```bash
-git clone <YOUR_REPO_URL>
-cd <YOUR_PROJECT_FOLDER>
 
 
 

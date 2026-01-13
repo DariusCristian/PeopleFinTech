@@ -1,3 +1,69 @@
+# People Fintech Network – Laravel CRUD Project
+
+A Laravel-based web application for managing members of a Women Fintech Network, including CRUD operations, filtering/search, pagination, and optional extra features (e.g., CSV export).  
+Built with **Laravel** and a relational database (MySQL/MariaDB).
+
+---
+
+## Features
+
+- **Members management (CRUD)**
+  - Create, view, update, and delete members
+  - Validation on create/update
+- **Filtering & Search**
+  - Filter members by profession, company, and status
+  - (Optional) Search by name/email if implemented
+- **Pagination**
+  - Paginated members list (10 per page)
+- **Relationships**
+  - Members can have multiple Success Stories (one-to-many)
+- **Optional / Extra**
+  - CSV export for members (if implemented)
+  - Events management (if implemented)
+  - Success Stories management (if implemented)
+
+---
+
+## Tech Stack
+
+- **Backend:** Laravel (PHP)
+- **Database:** MySQL / MariaDB
+- **Frontend:** Blade templates + Bootstrap (via Vite or CDN, depending on setup)
+
+---
+
+## Project Structure (Quick Overview)
+
+- `routes/web.php` – application routes
+- `app/Http/Controllers/` – controllers (business logic)
+- `app/Models/` – Eloquent models (database tables & relationships)
+- `database/migrations/` – database schema definitions
+- `resources/views/` – Blade templates (UI pages)
+- `resources/js` / `resources/css` – frontend assets (if using Vite)
+- `public/` – public entry point and built assets
+
+---
+
+## Requirements
+
+- **PHP:** 8.2+ (required for Laravel 12)
+- **Composer**
+- **Node.js + npm** (only if you use Vite build for Bootstrap/assets)
+- **MySQL/MariaDB** database
+
+---
+
+## Installation & Setup
+
+### 1) Clone the repository
+```bash
+git clone <YOUR_REPO_URL>
+cd <YOUR_PROJECT_FOLDER>
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
